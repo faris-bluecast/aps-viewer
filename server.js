@@ -15,6 +15,8 @@ if (fs.existsSync(DB_FILE)) {
     } catch (e) {
         console.error("Error reading annotations db:", e);
     }
+} else {
+    fs.writeFileSync(DB_FILE, JSON.stringify([], null, 2), 'utf8');
 }
 
 app.post('/annotations', (req, res) => {
