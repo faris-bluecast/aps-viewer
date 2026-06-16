@@ -1,0 +1,84 @@
+[
+  {
+    "urn": "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dHd6Z2g2d2hkdGRjaGJxNmI1eGJ1cGNtc2ZodHZtc3BjaHIxZXdobWdqcmFqcWE2LWJhc2ljLWFwcC9odHRwczolMkYlMkZkbXMtYmx1ZWNhc3QtZGVtby5zMy5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb20lMkZkbXMtYmx1ZWNhc3QtZGVtbyUyRmRvY3VtZW50cyUyRjVjN2JkNDQ5LTlkNDgtNGJmMy1iNTdjLWE5MThiNGQyZGQ3ZS0xNzcwNjE4NzYxNTU4LWFyY2hpdGVjdHVyYWxfLV9hbm5vdGF0aW9uX3NjYWxpbmdfYW5kX211bHRpbGVhZGVycy5kd2c",
+    "type": "markup",
+    "svgData": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" baseProfile=\"full\" layer-order-id=\"markups-svg\" style=\"position: absolute; left: 0px; top: 0px; transform: scale(1, -1); transform-origin: center center;\" width=\"1920\" height=\"780\" viewBox=\"-11.523074663364412 -0.015361115397691805 59.07691955566406 24.000000000024\" pointer-events=\"painted\" cursor=\"crosshair\"><metadata><markup_document xmlns=\"http://www.w3.org/1999/xhtml\" data-model-version=\"4\"></markup_document></metadata><g cursor=\"inherit\" pointer-events=\"painted\"><metadata><markup_element xmlns=\"http://www.w3.org/1999/xhtml\" stroke-width=\"0.03076923076925908\" stroke-color=\"#ff0000\" stroke-opacity=\"1\" fill-color=\"#ff0000\" fill-opacity=\"1\" type=\"arrow\" head=\"12.015385472095488 12.2307927307684\" tail=\"9.553847157276152 6.476946576916493\" rotation=\"5.116635167412537\"></markup_element></metadata><path id=\"markup\" d=\"M -3.1291339232094235 -0.01538461538462954 l 6.16596015411107 0 l -0.009230769230777725 -0.03076923076925908 l 0.10153846153855497 0.04615384615388862 l -0.10153846153855497 0.04615384615388862 l 0.009230769230777725 -0.03076923076925908 l -6.16596015411107 0 z\" stroke-width=\"0.03076923076925908\" stroke=\"rgba(255,0,0,1)\" fill=\"rgba(255,0,0,1)\" transform=\"translate( 10.78461631468582 , 9.353869653842446 ) rotate( -293.1616004009518 )\"/></g></svg>",
+    "cameraState": {
+      "viewport": {
+        "aspectRatio": 2.4615384615384617,
+        "isOrthographic": true,
+        "name": "",
+        "eye": [
+          18.0000005,
+          11.9999995,
+          23.999999
+        ],
+        "target": [
+          18.0000005,
+          12.000023499999,
+          0
+        ],
+        "up": [
+          0,
+          0.9999999999995001,
+          9.999999999875441e-7
+        ],
+        "distanceToOrbit": 23.999999000012,
+        "projection": "orthographic",
+        "worldUpVector": [
+          0,
+          1,
+          0
+        ],
+        "pivotPoint": [
+          18.0000005,
+          12.000023499999,
+          0
+        ],
+        "orthographicHeight": 23.999999000012
+      }
+    },
+    "text": "2D Annotation"
+  },
+  {
+    "urn": "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dHd6Z2g2d2hkdGRjaGJxNmI1eGJ1cGNtc2ZodHZtc3BjaHIxZXdobWdqcmFqcWE2LWJhc2ljLWFwcC9odHRwczolMkYlMkZkbXMtYmx1ZWNhc3QtZGVtby5zMy5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb20lMkZkbXMtYmx1ZWNhc3QtZGVtbyUyRmRvY3VtZW50cyUyRjVjN2JkNDQ5LTlkNDgtNGJmMy1iNTdjLWE5MThiNGQyZGQ3ZS0xNzcwNjE4NzYxNTU4LWFyY2hpdGVjdHVyYWxfLV9hbm5vdGF0aW9uX3NjYWxpbmdfYW5kX211bHRpbGVhZGVycy5kd2c",
+    "type": "markup",
+    "svgData": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" baseProfile=\"full\" layer-order-id=\"markups-svg\" style=\"position: absolute; left: 0px; top: 0px; transform: scale(1, -1); transform-origin: center center;\" width=\"1920\" height=\"780\" viewBox=\"-11.523074663364412 -0.015361115397691805 59.07691955566406 24.000000000024\" pointer-events=\"painted\" cursor=\"crosshair\"><metadata><markup_document xmlns=\"http://www.w3.org/1999/xhtml\" data-model-version=\"4\"></markup_document></metadata><g cursor=\"inherit\" pointer-events=\"painted\"><metadata><markup_element xmlns=\"http://www.w3.org/1999/xhtml\" stroke-width=\"0.03076923076925908\" stroke-color=\"#ff0000\" stroke-opacity=\"1\" fill-color=\"#ff0000\" fill-opacity=\"1\" type=\"arrow\" head=\"12.353846990383147 11.369254269229078\" tail=\"10.476924025333403 7.307715807686556\" rotation=\"5.145277040617242\"></markup_element></metadata><path id=\"markup\" d=\"M -2.2371261973411514 -0.01538461538462954 l 4.3819447023745255 0 l -0.009230769230777725 -0.03076923076925908 l 0.10153846153855497 0.04615384615388862 l -0.10153846153855497 0.04615384615388862 l 0.009230769230777725 -0.03076923076925908 l -4.3819447023745255 0 z\" stroke-width=\"0.03076923076925908\" stroke=\"rgba(255,0,0,1)\" fill=\"rgba(255,0,0,1)\" transform=\"translate( 11.415385507858275 , 9.338485038457817 ) rotate( -294.8026588529302 )\"/></g><g cursor=\"default\" pointer-events=\"painted\" style=\"display: block;\"><metadata><markup_element xmlns=\"http://www.w3.org/1999/xhtml\" font-size=\"0.30769230769261213\" stroke-color=\"#ff0000\" stroke-opacity=\"1\" fill-color=\"#ff0000\" fill-opacity=\"0\" font-family=\"Arial\" font-style=\"normal\" font-weight=\"normal\" type=\"label\" position=\"14.169231497562407 7.630792730763801\" size=\"4.615384340286255 0.7076923076930157\" text=\"test\"></markup_element></metadata><g clip-path=\"url(#markup-clipper-CC0EDFBD-AF75-4601-A919-FA30AA46FD84)\"><clipPath id=\"markup-clipper-CC0EDFBD-AF75-4601-A919-FA30AA46FD84\"><rect transform=\"translate( 11.86153932741928 , 7.984638884610309 ) rotate( 0 ) scale(1,-1)\" x=\"0\" y=\"0\" width=\"4.615384340286255\" height=\"0.7076923076930157\"/></clipPath><rect id=\"markup-background\" transform=\"translate( 11.86153932741928 , 7.984638884610309 ) rotate( 0 ) scale(1,-1)\" x=\"0\" y=\"0\" width=\"4.615384340286255\" height=\"0.7076923076930157\" fill=\"none\"/><text id=\"markup\" alignment-baseline=\"middle\" font-family=\"Arial\" font-size=\"30.769230769261213\" fill=\"rgba(255,0,0,1)\" font-weight=\"normal\" font-style=\"normal\" transform=\"translate( 11.86153932741928 , 7.676946576917697 ) rotate( 0 ) scale(0.01,-0.01)\"><tspan x=\"15.384615384630607\" y=\"15.384615384630607\">test</tspan></text></g></g></svg>",
+    "cameraState": {
+      "viewport": {
+        "aspectRatio": 2.4615384615384617,
+        "isOrthographic": true,
+        "name": "",
+        "eye": [
+          18.0000005,
+          11.9999995,
+          23.999999
+        ],
+        "target": [
+          18.0000005,
+          12.000023499999,
+          0
+        ],
+        "up": [
+          0,
+          0.9999999999995001,
+          9.999999999875441e-7
+        ],
+        "distanceToOrbit": 23.999999000012,
+        "projection": "orthographic",
+        "worldUpVector": [
+          0,
+          1,
+          0
+        ],
+        "pivotPoint": [
+          18.0000005,
+          12.000023499999,
+          0
+        ],
+        "orthographicHeight": 23.999999000012
+      }
+    },
+    "text": "2D Annotation"
+  }
+]

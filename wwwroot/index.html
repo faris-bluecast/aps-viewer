@@ -21,6 +21,26 @@
     </div>
     <div id="preview"></div>
     <div id="overlay"></div>
+
+    <div id="annotation-panel">
+        <div class="panel-columns">
+            <div class="panel-col">
+                <h4>2D Screen Markups (MarkupsCore)</h4>
+                <button id="btn-draw-arrow">Draw Arrow</button>
+                <button id="btn-add-text">Add Text</button>
+                <button id="btn-save-markup">Save 2D Markup</button>
+            </div>
+            <div class="panel-col">
+                <h4>3D Object Pins (DataVisualization)</h4>
+                <button id="btn-drop-pin">Drop 3D Pin</button>
+            </div>
+        </div>
+        <div class="panel-bottom">
+            <button id="btn-clear-canvas">Clear Canvas</button>
+            <button id="btn-reload-render">Reload & Render All Stored Comments</button>
+        </div>
+    </div>
+
     <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/viewer3D.js"></script>
     <script src="/main.js" type="module"></script>
 </body>

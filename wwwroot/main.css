@@ -53,3 +53,50 @@ body, html {
     flex: 0 1 auto;
     min-width: 2em;
 }
+
+#annotation-panel {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+}
+.panel-columns {
+    display: flex;
+    flex-direction: row;
+}
+.panel-col {
+    flex: 1;
+    padding: 15px;
+}
+.panel-col:first-child {
+    border-right: 1px solid #ddd;
+}
+.panel-col h4 {
+    margin-top: 0;
+    font-size: 14px;
+    color: #333;
+}
+.panel-col button, .panel-bottom button {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.panel-col button:hover, .panel-bottom button:hover {
+    background: #eee;
+}
+.panel-bottom {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
