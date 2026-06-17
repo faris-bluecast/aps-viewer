@@ -115,10 +115,53 @@ function setupAnnotationUI(viewer) {
     let markupsExt = viewer.getExtension("Autodesk.Viewing.MarkupsCore");
     let dataVizExt = viewer.getExtension("Autodesk.DataVisualization");
 
+    let activePinLabels = [];
+
+    // Sync HTML Labels to 3D space during camera movement
+    viewer.addEventListener(Autodesk.Viewing.CAMERA_CHANGE_EVENT, () => {
+        activePinLabels.forEach(label => {
+            const screenPoint = viewer.worldToClient(label.position);
+            label.element.style.left = screenPoint.x + 'px';
+            label.element.style.top = screenPoint.y + 'px';
+        });
+    });
+
+    let isEditingMarkups = false;
+
+    // Wipe out annotations when swapping to a new 3D model
+    viewer.addEventListener(Autodesk.Viewing.GEOMETRY_LOADED_EVENT, () => {
+        try { markupsExt.leaveEditMode(); } catch (e) { }
+        isEditingMarkups = false;
+        updateMarkupStatus(false);
+        markupsExt.clear();
+        markupsExt.hide();
+        dataVizExt.removeAllViewables();
+        activePinLabels.forEach(label => label.element.remove());
+        activePinLabels = [];
+    });
+
+    const updateMarkupStatus = (isEditing) => {
+        const badge = document.getElementById('markup-status-badge');
+        if (!badge) return;
+        if (isEditing) {
+            badge.innerText = 'EDITING ACTIVE';
+            badge.style.background = '#10b981';
+            badge.style.color = 'white';
+        } else {
+            badge.innerText = 'VIEWING ONLY';
+            badge.style.background = '#eee';
+            badge.style.color = '#888';
+        }
+    };
+
     // Enable Markups
     const enterMarkupMode = () => {
         markupsExt.show();
-        markupsExt.enterEditMode();
+        if (!isEditingMarkups) {
+            markupsExt.enterEditMode();
+            isEditingMarkups = true;
+        }
+        updateMarkupStatus(true);
     };
 
     document.getElementById('btn-draw-arrow').onclick = () => {
@@ -155,6 +198,8 @@ function setupAnnotationUI(viewer) {
         });
 
         markupsExt.leaveEditMode();
+        isEditingMarkups = false;
+        updateMarkupStatus(false);
         alert('2D Markup saved!');
     };
 
@@ -202,14 +247,15 @@ function setupAnnotationUI(viewer) {
     });
 
     document.getElementById('btn-clear-canvas').onclick = () => {
-        if (markupsExt.isActive()) {
-            markupsExt.clear();
-            markupsExt.leaveEditMode();
-        } else {
-            markupsExt.clear();
-        }
+        try { markupsExt.leaveEditMode(); } catch (e) { }
+        isEditingMarkups = false;
+        updateMarkupStatus(false);
+        try { markupsExt.unloadMarkupsAll(); } catch (e) { }
+        markupsExt.clear();
         markupsExt.hide();
         dataVizExt.removeAllViewables();
+        activePinLabels.forEach(label => label.element.remove());
+        activePinLabels = [];
     };
 
     document.getElementById('btn-reload-render').onclick = async () => {
@@ -217,9 +263,13 @@ function setupAnnotationUI(viewer) {
         const resp = await fetch('/annotations?urn=' + encodeURIComponent(urn));
         const data = await resp.json();
 
-        if (markupsExt.isActive()) markupsExt.leaveEditMode();
+        try { markupsExt.leaveEditMode(); } catch (e) { }
+        isEditingMarkups = false;
+        try { markupsExt.unloadMarkupsAll(); } catch (e) { }
         markupsExt.clear();
         dataVizExt.removeAllViewables();
+        activePinLabels.forEach(label => label.element.remove());
+        activePinLabels = [];
 
         let markupsList = [];
         let viewableData = new Autodesk.DataVisualization.Core.ViewableData();
@@ -231,18 +281,32 @@ function setupAnnotationUI(viewer) {
             if (item.type === 'markup') {
                 markupsList.push(item);
             } else if (item.type === 'pin') {
-                const style = new Autodesk.DataVisualization.Core.ViewableStyle(
-                    Autodesk.DataVisualization.Core.ViewableType.SPRITE,
-                    new THREE.Color(0xffffff),
-                    'https://img.icons8.com/color/48/000000/marker--v1.png'
-                );
+                // Render the text as an HTML element directly in place of the icon
+                const labelObj = document.createElement('div');
+                labelObj.innerText = item.text;
+                labelObj.style.position = 'absolute';
+                labelObj.style.background = '#ffffff';
+                labelObj.style.padding = '5px 12px';
+                labelObj.style.border = '2px solid #575757';
+                labelObj.style.borderRadius = '20px';
+                labelObj.style.boxShadow = '0px 4px 6px rgba(0,0,0,0.3)';
+                labelObj.style.zIndex = '500';
+                labelObj.style.pointerEvents = 'none';
+                labelObj.style.fontWeight = 'bold';
+                labelObj.style.color = '#333';
+                labelObj.style.transform = 'translate(-50%, -50%)'; // Center over point
+                labelObj.style.whiteSpace = 'nowrap';
 
-                const viewable = new Autodesk.DataVisualization.Core.SpriteViewable(
-                    item.position,
-                    style,
-                    pinIndex++
-                );
-                viewableData.addViewable(viewable);
+                const screenPoint = viewer.worldToClient(item.position);
+                labelObj.style.left = screenPoint.x + 'px';
+                labelObj.style.top = screenPoint.y + 'px';
+
+                viewer.container.appendChild(labelObj);
+
+                activePinLabels.push({
+                    position: item.position,
+                    element: labelObj
+                });
             }
         }
 
@@ -254,11 +318,11 @@ function setupAnnotationUI(viewer) {
             viewer.restoreState(lastMarkup.cameraState);
 
             markupsExt.show();
-            for (let m of markupsList) {
-                markupsExt.loadMarkups(m.svgData, "layer_" + Math.random());
+            for (let i = 0; i < markupsList.length; i++) {
+                markupsExt.loadMarkups(markupsList[i].svgData, "saved_layer_" + i);
             }
         }
 
-        alert('All stored comments rendered.');
+        alert(`Rendered ${data.length} stored comments from the database.`);
     };
 }

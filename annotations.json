@@ -80,5 +80,280 @@
       }
     },
     "text": "2D Annotation"
+  },
+  {
+    "urn": "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dHd6Z2g2d2hkdGRjaGJxNmI1eGJ1cGNtc2ZodHZtc3BjaHIxZXdobWdqcmFqcWE2LWJhc2ljLWFwcC9QSC0xMDQlMjBHcm91bmQlMjBGbG9vciUyMFBsYW4uZHdn",
+    "type": "pin",
+    "position": {
+      "x": 8.171334784974654,
+      "y": 21.75968106376416,
+      "z": 0
+    },
+    "text": "some"
+  },
+  {
+    "urn": "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dHd6Z2g2d2hkdGRjaGJxNmI1eGJ1cGNtc2ZodHZtc3BjaHIxZXdobWdqcmFqcWE2LWJhc2ljLWFwcC9odHRwczolMkYlMkZkbXMtYmx1ZWNhc3QtZGVtby5zMy5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb20lMkZkbXMtYmx1ZWNhc3QtZGVtbyUyRmRvY3VtZW50cyUyRjVjN2JkNDQ5LTlkNDgtNGJmMy1iNTdjLWE5MThiNGQyZGQ3ZS0xNzcwNjE4NzYxNTU4LWFyY2hpdGVjdHVyYWxfLV9hbm5vdGF0aW9uX3NjYWxpbmdfYW5kX211bHRpbGVhZGVycy5kd2c",
+    "type": "pin",
+    "position": {
+      "x": 22.392405153314275,
+      "y": 10.265845793762766,
+      "z": 0
+    },
+    "text": "Hello"
+  },
+  {
+    "urn": "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dHd6Z2g2d2hkdGRjaGJxNmI1eGJ1cGNtc2ZodHZtc3BjaHIxZXdobWdqcmFqcWE2LWJhc2ljLWFwcC9odHRwczolMkYlMkZkbXMtYmx1ZWNhc3QtZGVtby5zMy5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb20lMkZkbXMtYmx1ZWNhc3QtZGVtbyUyRmRvY3VtZW50cyUyRjVjN2JkNDQ5LTlkNDgtNGJmMy1iNTdjLWE5MThiNGQyZGQ3ZS0xNzcwNjE4NzYxNTU4LWFyY2hpdGVjdHVyYWxfLV9hbm5vdGF0aW9uX3NjYWxpbmdfYW5kX211bHRpbGVhZGVycy5kd2c",
+    "type": "markup",
+    "svgData": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" baseProfile=\"full\" layer-order-id=\"markups-svg\" width=\"1920\" height=\"948\" viewBox=\"-6.291138040705047 -0.012634727861176032 48.60759353637695 24.000000000024002\" pointer-events=\"painted\" cursor=\"crosshair\" style=\"position: absolute; left: 0px; top: 0px; transform: scale(1, -1); transform-origin: center center;\"><metadata><markup_document xmlns=\"http://www.w3.org/1999/xhtml\" data-model-version=\"4\"></markup_document></metadata><g cursor=\"default\" pointer-events=\"painted\" style=\"display: block;\"><metadata><markup_element xmlns=\"http://www.w3.org/1999/xhtml\" font-size=\"0.25316455696228246\" stroke-color=\"#ff0000\" stroke-opacity=\"1\" fill-color=\"#ff0000\" fill-opacity=\"0\" font-family=\"Arial\" font-style=\"normal\" font-weight=\"normal\" type=\"label\" position=\"11.101266521529833 7.088631094930733\" size=\"3.7974682450294495 0.5822784810132404\" text=\"hai\"></markup_element></metadata><g clip-path=\"url(#markup-clipper-58E1A4AA-00A5-40FF-9839-FE5E5305850C)\"><clipPath id=\"markup-clipper-58E1A4AA-00A5-40FF-9839-FE5E5305850C\"><rect transform=\"translate( 9.202532399015109 , 7.379770335437353 ) rotate( 0 ) scale(1,-1)\" x=\"0\" y=\"0\" width=\"3.7974682450294495\" height=\"0.5822784810132404\"/></clipPath><rect id=\"markup-background\" transform=\"translate( 9.202532399015109 , 7.379770335437353 ) rotate( 0 ) scale(1,-1)\" x=\"0\" y=\"0\" width=\"3.7974682450294495\" height=\"0.5822784810132404\" fill=\"none\"/><text id=\"markup\" alignment-baseline=\"middle\" font-family=\"Arial\" font-size=\"25.316455696228246\" fill=\"rgba(255,0,0,1)\" font-weight=\"normal\" font-style=\"normal\" transform=\"translate( 9.202532399015109 , 7.126605778475071 ) rotate( 0 ) scale(0.01,-0.01)\"><tspan x=\"12.658227848114123\" y=\"12.658227848114123\">hai</tspan></text></g></g></svg>",
+    "cameraState": {
+      "viewport": {
+        "aspectRatio": 2.0253164556962027,
+        "isOrthographic": true,
+        "name": "",
+        "eye": [
+          18.0000005,
+          11.9999995,
+          23.999999
+        ],
+        "target": [
+          18.0000005,
+          12.000023499999,
+          0
+        ],
+        "up": [
+          0,
+          0.9999999999995001,
+          9.999999999875441e-7
+        ],
+        "distanceToOrbit": 23.999999000012,
+        "projection": "orthographic",
+        "worldUpVector": [
+          0,
+          1,
+          0
+        ],
+        "pivotPoint": [
+          18.0000005,
+          12.000023499999,
+          0
+        ],
+        "orthographicHeight": 23.999999000012
+      }
+    },
+    "text": "2D Annotation"
+  },
+  {
+    "urn": "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dHd6Z2g2d2hkdGRjaGJxNmI1eGJ1cGNtc2ZodHZtc3BjaHIxZXdobWdqcmFqcWE2LWJhc2ljLWFwcC9odHRwczolMkYlMkZkbXMtYmx1ZWNhc3QtZGVtby5zMy5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb20lMkZkbXMtYmx1ZWNhc3QtZGVtbyUyRmRvY3VtZW50cyUyRjVjN2JkNDQ5LTlkNDgtNGJmMy1iNTdjLWE5MThiNGQyZGQ3ZS0xNzcwNjE4NzYxNTU4LWFyY2hpdGVjdHVyYWxfLV9hbm5vdGF0aW9uX3NjYWxpbmdfYW5kX211bHRpbGVhZGVycy5kd2c",
+    "type": "markup",
+    "svgData": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" baseProfile=\"full\" layer-order-id=\"markups-svg\" width=\"1920\" height=\"948\" viewBox=\"-6.291138040705047 -0.012634727861176032 48.60759353637695 24.000000000024002\" pointer-events=\"painted\" cursor=\"crosshair\" style=\"position: absolute; left: 0px; top: 0px; transform: scale(1, -1); transform-origin: center center;\"><metadata><markup_document xmlns=\"http://www.w3.org/1999/xhtml\" data-model-version=\"4\"></markup_document></metadata><g cursor=\"default\" pointer-events=\"painted\" style=\"display: block;\"><metadata><markup_element xmlns=\"http://www.w3.org/1999/xhtml\" font-size=\"0.25316455696228246\" stroke-color=\"#ff0000\" stroke-opacity=\"1\" fill-color=\"#ff0000\" fill-opacity=\"0\" font-family=\"Arial\" font-style=\"normal\" font-weight=\"normal\" type=\"label\" position=\"11.101266521529833 7.088631094930733\" size=\"3.7974682450294495 0.5822784810132404\" text=\"hai\"></markup_element></metadata><g clip-path=\"url(#markup-clipper-58E1A4AA-00A5-40FF-9839-FE5E5305850C)\"><clipPath id=\"markup-clipper-58E1A4AA-00A5-40FF-9839-FE5E5305850C\"><rect transform=\"translate( 9.202532399015109 , 7.379770335437353 ) rotate( 0 ) scale(1,-1)\" x=\"0\" y=\"0\" width=\"3.7974682450294495\" height=\"0.5822784810132404\"/></clipPath><rect id=\"markup-background\" transform=\"translate( 9.202532399015109 , 7.379770335437353 ) rotate( 0 ) scale(1,-1)\" x=\"0\" y=\"0\" width=\"3.7974682450294495\" height=\"0.5822784810132404\" fill=\"none\"/><text id=\"markup\" alignment-baseline=\"middle\" font-family=\"Arial\" font-size=\"25.316455696228246\" fill=\"rgba(255,0,0,1)\" font-weight=\"normal\" font-style=\"normal\" transform=\"translate( 9.202532399015109 , 7.126605778475071 ) rotate( 0 ) scale(0.01,-0.01)\"><tspan x=\"12.658227848114123\" y=\"12.658227848114123\">hai</tspan></text></g></g><g cursor=\"inherit\" pointer-events=\"painted\"><metadata><markup_element xmlns=\"http://www.w3.org/1999/xhtml\" stroke-width=\"0.02531645569623464\" stroke-color=\"#ff0000\" stroke-opacity=\"1\" fill-color=\"#ff0000\" fill-opacity=\"1\" type=\"arrow\" head=\"17.0759498937095 7.734200715184546\" tail=\"20.544304224169736 2.848124765812571\" rotation=\"4.095086454282824\"></markup_element></metadata><path id=\"markup\" d=\"M -2.995964783865688 -0.01265822784811732 l 5.9159802006426725 0 l -0.007594936708870392 -0.02531645569623464 l 0.08354430379757431 0.03797468354435196 l -0.08354430379757431 0.03797468354435196 l 0.007594936708870392 -0.02531645569623464 l -5.9159802006426725 0 z\" stroke-width=\"0.02531645569623464\" stroke=\"rgba(255,0,0,1)\" fill=\"rgba(255,0,0,1)\" transform=\"translate( 18.810127058939617 , 5.291162740498558 ) rotate( -234.63117057159877 )\"/></g></svg>",
+    "cameraState": {
+      "viewport": {
+        "aspectRatio": 2.0253164556962027,
+        "isOrthographic": true,
+        "name": "",
+        "eye": [
+          18.0000005,
+          11.9999995,
+          23.999999
+        ],
+        "target": [
+          18.0000005,
+          12.000023499999,
+          0
+        ],
+        "up": [
+          0,
+          0.9999999999995001,
+          9.999999999875441e-7
+        ],
+        "distanceToOrbit": 23.999999000012,
+        "projection": "orthographic",
+        "worldUpVector": [
+          0,
+          1,
+          0
+        ],
+        "pivotPoint": [
+          18.0000005,
+          12.000023499999,
+          0
+        ],
+        "orthographicHeight": 23.999999000012
+      }
+    },
+    "text": "2D Annotation"
+  },
+  {
+    "urn": "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dHd6Z2g2d2hkdGRjaGJxNmI1eGJ1cGNtc2ZodHZtc3BjaHIxZXdobWdqcmFqcWE2LWJhc2ljLWFwcC9odHRwczolMkYlMkZkbXMtYmx1ZWNhc3QtZGVtby5zMy5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb20lMkZkbXMtYmx1ZWNhc3QtZGVtbyUyRmRvY3VtZW50cyUyRjVjN2JkNDQ5LTlkNDgtNGJmMy1iNTdjLWE5MThiNGQyZGQ3ZS0xNzcwNjE4NzYxNTU4LWFyY2hpdGVjdHVyYWxfLV9hbm5vdGF0aW9uX3NjYWxpbmdfYW5kX211bHRpbGVhZGVycy5kd2c",
+    "type": "pin",
+    "position": {
+      "x": 16.31645574470361,
+      "y": 6.924073557359911,
+      "z": 0
+    },
+    "text": "Spposed to be in the 1st"
+  },
+  {
+    "urn": "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dHd6Z2g2d2hkdGRjaGJxNmI1eGJ1cGNtc2ZodHZtc3BjaHIxZXdobWdqcmFqcWE2LWJhc2ljLWFwcC9odHRwczolMkYlMkZkbXMtYmx1ZWNhc3QtZGVtby5zMy5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb20lMkZkbXMtYmx1ZWNhc3QtZGVtbyUyRmRvY3VtZW50cyUyRjVjN2JkNDQ5LTlkNDgtNGJmMy1iNTdjLWE5MThiNGQyZGQ3ZS0xNzcwNjE4NzYxNTU4LWFyY2hpdGVjdHVyYWxfLV9hbm5vdGF0aW9uX3NjYWxpbmdfYW5kX211bHRpbGVhZGVycy5kd2c",
+    "type": "markup",
+    "svgData": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" baseProfile=\"full\" layer-order-id=\"markups-svg\" width=\"1920\" height=\"948\" viewBox=\"-6.291138040705047 -0.012634727861176032 48.60759353637695 24.000000000024002\" pointer-events=\"painted\" cursor=\"crosshair\" style=\"position: absolute; left: 0px; top: 0px; transform: scale(1, -1); transform-origin: center center;\"><metadata><markup_document xmlns=\"http://www.w3.org/1999/xhtml\" data-model-version=\"4\"></markup_document></metadata><g cursor=\"inherit\" pointer-events=\"painted\"><metadata><markup_element xmlns=\"http://www.w3.org/1999/xhtml\" stroke-width=\"0.02531645569623464\" stroke-color=\"#ff0000\" stroke-opacity=\"1\" fill-color=\"#ff0000\" fill-opacity=\"1\" type=\"arrow\" head=\"11.582279165900228 10.569643753162065\" tail=\"9.075950124180792 5.607618436701404\" rotation=\"5.1801098750192445\"></markup_element></metadata><path id=\"markup\" d=\"M -2.779540452420273 -0.01265822784811732 l 5.483131537751842 0 l -0.007594936708870392 -0.02531645569623464 l 0.08354430379757431 0.03797468354435196 l -0.08354430379757431 0.03797468354435196 l 0.007594936708870392 -0.02531645569623464 l -5.483131537751842 0 z\" stroke-width=\"0.02531645569623464\" stroke=\"rgba(255,0,0,1)\" fill=\"rgba(255,0,0,1)\" transform=\"translate( 10.32911464504051 , 8.088631094931735 ) rotate( -296.79843325264306 )\"/></g><g cursor=\"default\" pointer-events=\"painted\" style=\"display: block;\"><metadata><markup_element xmlns=\"http://www.w3.org/1999/xhtml\" font-size=\"0.25316455696228246\" stroke-color=\"#ff0000\" stroke-opacity=\"1\" fill-color=\"#ff0000\" fill-opacity=\"0\" font-family=\"Arial\" font-style=\"normal\" font-weight=\"normal\" type=\"label\" position=\"19.759494120196976 10.278504512655445\" size=\"3.7974682450294495 0.5822784810132404\" text=\"ssome\"></markup_element></metadata><g clip-path=\"url(#markup-clipper-5DB8FFA4-4536-47E6-9BE9-459AFE3B3E9D)\"><clipPath id=\"markup-clipper-5DB8FFA4-4536-47E6-9BE9-459AFE3B3E9D\"><rect transform=\"translate( 17.86075999768225 , 10.569643753162065 ) rotate( 0 ) scale(1,-1)\" x=\"0\" y=\"0\" width=\"3.7974682450294495\" height=\"0.5822784810132404\"/></clipPath><rect id=\"markup-background\" transform=\"translate( 17.86075999768225 , 10.569643753162065 ) rotate( 0 ) scale(1,-1)\" x=\"0\" y=\"0\" width=\"3.7974682450294495\" height=\"0.5822784810132404\" fill=\"none\"/><text id=\"markup\" alignment-baseline=\"middle\" font-family=\"Arial\" font-size=\"25.316455696228246\" fill=\"rgba(255,0,0,1)\" font-weight=\"normal\" font-style=\"normal\" transform=\"translate( 17.86075999768225 , 10.316479196199783 ) rotate( 0 ) scale(0.01,-0.01)\"><tspan x=\"12.658227848114123\" y=\"12.658227848114123\">ssome</tspan></text></g></g></svg>",
+    "cameraState": {
+      "viewport": {
+        "aspectRatio": 2.0253164556962027,
+        "isOrthographic": true,
+        "name": "",
+        "eye": [
+          18.0000005,
+          11.9999995,
+          23.999999
+        ],
+        "target": [
+          18.0000005,
+          12.000023499999,
+          0
+        ],
+        "up": [
+          0,
+          0.9999999999995001,
+          9.999999999875441e-7
+        ],
+        "distanceToOrbit": 23.999999000012,
+        "projection": "orthographic",
+        "worldUpVector": [
+          0,
+          1,
+          0
+        ],
+        "pivotPoint": [
+          18.0000005,
+          12.000023499999,
+          0
+        ],
+        "orthographicHeight": 23.999999000012
+      }
+    },
+    "text": "2D Annotation"
+  },
+  {
+    "urn": "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dHd6Z2g2d2hkdGRjaGJxNmI1eGJ1cGNtc2ZodHZtc3BjaHIxZXdobWdqcmFqcWE2LWJhc2ljLWFwcC9odHRwczolMkYlMkZkbXMtYmx1ZWNhc3QtZGVtby5zMy5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb20lMkZkbXMtYmx1ZWNhc3QtZGVtbyUyRmRvY3VtZW50cyUyRjVjN2JkNDQ5LTlkNDgtNGJmMy1iNTdjLWE5MThiNGQyZGQ3ZS0xNzcwNjE4NzYxNTU4LWFyY2hpdGVjdHVyYWxfLV9hbm5vdGF0aW9uX3NjYWxpbmdfYW5kX211bHRpbGVhZGVycy5kd2c",
+    "type": "pin",
+    "position": {
+      "x": 28.74683482547601,
+      "y": 10.367111725196947,
+      "z": 0
+    },
+    "text": "JHiw"
+  },
+  {
+    "urn": "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dHd6Z2g2d2hkdGRjaGJxNmI1eGJ1cGNtc2ZodHZtc3BjaHIxZXdobWdqcmFqcWE2LWJhc2ljLWFwcC9odHRwczolMkYlMkZkbXMtYmx1ZWNhc3QtZGVtby5zMy5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb20lMkZkbXMtYmx1ZWNhc3QtZGVtbyUyRmRvY3VtZW50cyUyRjVjN2JkNDQ5LTlkNDgtNGJmMy1iNTdjLWE5MThiNGQyZGQ3ZS0xNzcwNjE4NzYxNTU4LWFyY2hpdGVjdHVyYWxfLV9hbm5vdGF0aW9uX3NjYWxpbmdfYW5kX211bHRpbGVhZGVycy5kd2c",
+    "type": "markup",
+    "svgData": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" baseProfile=\"full\" layer-order-id=\"markups-svg\" width=\"1920\" height=\"948\" viewBox=\"-5.025315308636898 -1.8354194620440332 48.607593536376946 24.000000000024006\" pointer-events=\"painted\" style=\"position: absolute; left: 0px; top: 0px; transform: scale(1, -1); transform-origin: center center;\" cursor=\"crosshair\"><metadata><markup_document xmlns=\"http://www.w3.org/1999/xhtml\" data-model-version=\"4\"></markup_document></metadata><g cursor=\"inherit\" pointer-events=\"painted\"><metadata><markup_element xmlns=\"http://www.w3.org/1999/xhtml\" stroke-width=\"0.025316455696227536\" stroke-color=\"#ff0000\" stroke-opacity=\"1\" fill-color=\"#ff0000\" fill-opacity=\"1\" type=\"arrow\" head=\"18.62025363041314 13.379770411388908\" tail=\"22.037975050939643 11.45571977847559\" rotation=\"3.654333743641989\"></markup_element></metadata><path id=\"markup\" d=\"M -1.9610450368578896 -0.012658227848113768 l 3.8461407066270965 0 l -0.00759493670886826 -0.025316455696227536 l 0.08354430379755087 0.0379746835443413 l -0.08354430379755087 0.0379746835443413 l 0.00759493670886826 -0.025316455696227536 l -3.8461407066270965 0 z\" stroke-width=\"0.025316455696227536\" stroke=\"rgba(255,0,0,1)\" fill=\"rgba(255,0,0,1)\" transform=\"translate( 20.32911434067639 , 12.417745094932249 ) rotate( -209.3779004429281 )\"/></g></svg>",
+    "cameraState": {
+      "viewport": {
+        "aspectRatio": 2.0253164556962027,
+        "isOrthographic": true,
+        "name": "",
+        "eye": [
+          19.265823232068147,
+          10.17721476582278,
+          23.99999717721528
+        ],
+        "target": [
+          19.265823232068147,
+          10.17723876582178,
+          -0.000001822784734155425
+        ],
+        "up": [
+          0,
+          0.9999999999995,
+          9.999999999875433e-7
+        ],
+        "distanceToOrbit": 23.999999000012014,
+        "projection": "orthographic",
+        "worldUpVector": [
+          0,
+          1,
+          0
+        ],
+        "pivotPoint": [
+          18.0000005,
+          12.000023499999,
+          0
+        ],
+        "orthographicHeight": 23.999999000012018
+      }
+    },
+    "text": "2D Annotation"
+  },
+  {
+    "urn": "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dHd6Z2g2d2hkdGRjaGJxNmI1eGJ1cGNtc2ZodHZtc3BjaHIxZXdobWdqcmFqcWE2LWJhc2ljLWFwcC90YWJsZXQuZHdn",
+    "type": "pin",
+    "position": {
+      "x": 5.888472172286776,
+      "y": 4.795029152019545,
+      "z": 0
+    },
+    "text": "Hai"
+  },
+  {
+    "urn": "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dHd6Z2g2d2hkdGRjaGJxNmI1eGJ1cGNtc2ZodHZtc3BjaHIxZXdobWdqcmFqcWE2LWJhc2ljLWFwcC90YWJsZXQuZHdn",
+    "type": "pin",
+    "position": {
+      "x": -4.8571258299052715,
+      "y": -5.09375898912549,
+      "z": -0.018615445122122765
+    },
+    "text": "hello"
+  },
+  {
+    "urn": "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dHd6Z2g2d2hkdGRjaGJxNmI1eGJ1cGNtc2ZodHZtc3BjaHIxZXdobWdqcmFqcWE2LWJhc2ljLWFwcC9BLTEwMyUyMEJhc2VtZW50LTAxJTIwRmxvb3IlMjBQbGFuLmR3Zw",
+    "type": "pin",
+    "position": {
+      "x": 10.371271571765343,
+      "y": 22.956917466644942,
+      "z": 0
+    },
+    "text": "Hai"
+  },
+  {
+    "urn": "dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6dHd6Z2g2d2hkdGRjaGJxNmI1eGJ1cGNtc2ZodHZtc3BjaHIxZXdobWdqcmFqcWE2LWJhc2ljLWFwcC9odHRwczolMkYlMkZkbXMtYmx1ZWNhc3QtZGVtby5zMy5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb20lMkZkbXMtYmx1ZWNhc3QtZGVtbyUyRmRvY3VtZW50cyUyRjVjN2JkNDQ5LTlkNDgtNGJmMy1iNTdjLWE5MThiNGQyZGQ3ZS0xNzcwNjE4NzYxNTU4LWFyY2hpdGVjdHVyYWxfLV9hbm5vdGF0aW9uX3NjYWxpbmdfYW5kX211bHRpbGVhZGVycy5kd2c",
+    "type": "markup",
+    "svgData": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" baseProfile=\"full\" layer-order-id=\"markups-svg\" width=\"1920\" height=\"948\" viewBox=\"-6.291138040705047 -0.012634727861176032 48.60759353637695 24.000000000024002\" pointer-events=\"painted\" cursor=\"crosshair\" style=\"position: absolute; left: 0px; top: 0px; transform: scale(1, -1); transform-origin: center center;\"><metadata><markup_document xmlns=\"http://www.w3.org/1999/xhtml\" data-model-version=\"4\"></markup_document></metadata><g cursor=\"inherit\" pointer-events=\"painted\"><metadata><markup_element xmlns=\"http://www.w3.org/1999/xhtml\" stroke-width=\"0.025316455696227536\" stroke-color=\"#ff0000\" stroke-opacity=\"1\" fill-color=\"#ff0000\" fill-opacity=\"1\" type=\"arrow\" head=\"11.683544985767682 11.00002349999794\" tail=\"4.468355320211728 3.3797703354333546\" rotation=\"5.470490157036567\"></markup_element></metadata><path id=\"markup\" d=\"M -5.247075857132285 -0.012658227848113768 l 10.418202347175887 0 l -0.00759493670886826 -0.025316455696227536 l 0.08354430379755087 0.0379746835443413 l -0.08354430379755087 0.0379746835443413 l 0.00759493670886826 -0.025316455696227536 l -10.418202347175887 0 z\" stroke-width=\"0.025316455696227536\" stroke=\"rgba(255,0,0,1)\" fill=\"rgba(255,0,0,1)\" transform=\"translate( 8.075950152989705 , 7.1898969177156475 ) rotate( -313.4359978660542 )\"/></g></svg>",
+    "cameraState": {
+      "viewport": {
+        "aspectRatio": 2.0253164556962027,
+        "isOrthographic": true,
+        "name": "",
+        "eye": [
+          18.0000005,
+          11.9999995,
+          23.999999
+        ],
+        "target": [
+          18.0000005,
+          12.000023499999,
+          0
+        ],
+        "up": [
+          0,
+          0.9999999999995001,
+          9.999999999875441e-7
+        ],
+        "distanceToOrbit": 23.999999000012,
+        "projection": "orthographic",
+        "worldUpVector": [
+          0,
+          1,
+          0
+        ],
+        "pivotPoint": [
+          18.0000005,
+          12.000023499999,
+          0
+        ],
+        "orthographicHeight": 23.999999000012
+      }
+    },
+    "text": "2D Annotation"
   }
 ]
