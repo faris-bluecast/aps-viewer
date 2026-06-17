@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Autodesk Platform Services application built by following the Simple Viewer tutorial from https://aps.autodesk.com/tutorials.",
   "scripts": {
-    "start": "node server.js"
+    "start": "node --watch server.js"
   },
   "keywords": [
     "autodesk-platform-services"

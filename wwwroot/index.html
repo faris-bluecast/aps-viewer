@@ -18,9 +18,39 @@
         <select name="models" id="models"></select>
         <button id="upload" title="Upload New Model">Upload</button>
         <input style="display: none" type="file" id="input">
+        <input style="display: none" type="file" id="image-input" accept="image/*">
     </div>
     <div id="preview"></div>
     <div id="overlay"></div>
+
+    <!-- Image placement overlay (Phase 1: PLACING) -->
+    <div id="img-placement-layer">
+        <span id="img-placement-hint">📷 Click anywhere to place the image</span>
+    </div>
+
+    <!-- Image editing box (Phase 2: EDITING) -->
+    <div id="img-editing-box">
+        <img id="img-editing-preview" alt="annotation image" />
+        <!-- 8 resize handles -->
+        <div class="img-resize-handle nw" data-dir="nw"></div>
+        <div class="img-resize-handle n" data-dir="n"></div>
+        <div class="img-resize-handle ne" data-dir="ne"></div>
+        <div class="img-resize-handle e" data-dir="e"></div>
+        <div class="img-resize-handle se" data-dir="se"></div>
+        <div class="img-resize-handle s" data-dir="s"></div>
+        <div class="img-resize-handle sw" data-dir="sw"></div>
+        <div class="img-resize-handle w" data-dir="w"></div>
+        <!-- Mini toolbar -->
+        <div id="img-mini-toolbar">
+            <span class="img-toolbar-label">W</span>
+            <input class="img-toolbar-input" id="img-input-w" type="number" min="30" step="1" />
+            <span class="img-toolbar-label">H</span>
+            <input class="img-toolbar-input" id="img-input-h" type="number" min="30" step="1" />
+            <div class="img-toolbar-sep"></div>
+            <button id="img-btn-confirm">✓ Confirm</button>
+            <button id="img-btn-cancel">✗ Cancel</button>
+        </div>
+    </div>
 
     <div id="annotation-panel">
         <div class="panel-columns">
@@ -32,11 +62,13 @@
                 </h4>
                 <button id="btn-draw-arrow">Draw Arrow</button>
                 <button id="btn-add-text">Add Text</button>
+                <button id="btn-add-image-markup">📷 Place Image (2D)</button>
                 <button id="btn-save-markup">Save 2D Markup</button>
             </div>
             <div class="panel-col">
                 <h4>3D Object Pins (DataVisualization)</h4>
                 <button id="btn-drop-pin">Drop 3D Pin</button>
+                <button id="btn-drop-image-pin">🖼️ Drop Image Pin (3D)</button>
             </div>
         </div>
         <div class="panel-bottom">
